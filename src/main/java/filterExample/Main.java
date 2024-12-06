@@ -23,5 +23,8 @@ public class Main {
                 Arrays.toString(
                         strFilter.filter(
                                 str,(e)-> e + 1)));
+
+        System.out.println(str==strFilter.filter(
+                str,(e)-> e + 1));
     }
 }
